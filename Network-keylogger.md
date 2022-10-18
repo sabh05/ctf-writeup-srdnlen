@@ -7,7 +7,9 @@ We are given a **pcap** file. On opening it in wireshark, we will find it is USB
 
 ![image](https://user-images.githubusercontent.com/89577007/196241863-62cd2ca3-3de4-4fbf-93ac-2399856a5fa2.png)
 
-Following the packet *```DESCRIPTOR Response DEVICE```*, we will find basic information about the connected devices. Operating System uses idVendor & idProduct to determine a driver for the connected device.
+Following the packet *```DESCRIPTOR Response DEVICE```*, we will find basic information like idVendor,idProduct etc. about the connected devices. 
+
+*Operating System uses idVendor & idProduct to determine a driver for the connected device.*
 
 After analyzing few Leftover data, we are confirmed that It is about keyboard capture.
 
